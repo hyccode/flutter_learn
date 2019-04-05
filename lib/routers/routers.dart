@@ -5,9 +5,11 @@ class Routes {
   static String root = "/";
   static String home = "/home";
   static String list = "/list";
+  static String webViewPage = "/webviewpage";
 
   static void configureRoutes(Router router) {
     router.define(home, handler: homeHandler);
     router.define(list, handler: listHandler);
+    router.define(webViewPage, handler: webViewPageHander);
   }
 }

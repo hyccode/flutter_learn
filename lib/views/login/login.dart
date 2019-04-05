@@ -31,11 +31,6 @@ class LoginPageState extends State {
             const SizedBox(height: 80.0),
             Column(
               children: <Widget>[
-                Image.asset(
-                  'assets/images/login_log.png',
-                  width: 60.0,
-                  height: 60.0,
-                ),
                 const SizedBox(height: 16.0),
                 Text(
                   '登录页面',
