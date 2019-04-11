@@ -1,8 +1,7 @@
 package io.flutter.plugins;
 
-import com.flutter_webview_plugin.FlutterWebviewPlugin;
-
 import io.flutter.plugin.common.PluginRegistry;
+import com.flutter_webview_plugin.FlutterWebviewPlugin;
 import io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin;
 
 /**

@@ -30,10 +30,24 @@
             </list>
           </value>
         </entry>
+        <entry key="common_utils">
+          <value>
+            <list>
+              <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/common_utils-1.1.1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="cupertino_icons">
           <value>
             <list>
               <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/cupertino_icons-0.1.2/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="decimal">
+          <value>
+            <list>
+              <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/decimal-0.3.3/lib" />
             </list>
           </value>
         </entry>
@@ -104,6 +118,13 @@
           <value>
             <list>
               <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/quiver-2.0.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="rational">
+          <value>
+            <list>
+              <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/rational-0.3.3/lib" />
             </list>
           </value>
         </entry>
@@ -184,7 +205,9 @@
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/boolean_selector-1.0.4/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/charcode-1.1.2/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/collection-1.14.11/lib" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/common_utils-1.1.1/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/cupertino_icons-0.1.2/lib" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/decimal-0.3.3/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/english_words-3.1.5/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluro-1.4.0/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_webview_plugin-0.3.3/lib" />
@@ -193,6 +216,7 @@
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/path-1.6.2/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/pedantic-1.5.0/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/quiver-2.0.1/lib" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/rational-0.3.3/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.4.3/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/source_span-1.5.5/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/stack_trace-1.9.3/lib" />

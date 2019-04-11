@@ -3,6 +3,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/routers/application.dart';
 import 'package:flutter_app/routers/routers.dart';
+import 'package:flutter_app/utils/shared_preferences.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -103,9 +104,14 @@ class LoginPageState extends State {
       showInSnackBar('请输入正确的账号密码！');
     } else {
       form.save();
-//      Navigator.of(context).pushNamedAndRemoveUntil(
-//          Routes.home, (Route<dynamic> route) => false);
-      Application.router.navigateTo(context, Routes.home);
+      Navigator.of(context).pushNamedAndRemoveUntil(
+          Routes.home, (Route<dynamic> route) => false);
+      saveUserId();
     }
+  }
+
+  void saveUserId() async{
+    SpUtil instance = await SpUtil.getInstance();
+    instance.putString(SharedPreferencesKeys.UserId, _name);
   }
 }

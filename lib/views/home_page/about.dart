@@ -2,17 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/routers/application.dart';
 import 'package:flutter_app/routers/routers.dart';
 
-class AboutPage extends StatefulWidget {
+class AboutPage extends StatelessWidget {
   @override
-  AboutPageState createState() => AboutPageState();
+  AboutPageState build(BuildContext context) => AboutPageState();
 }
 
-class AboutPageState extends State<AboutPage> {
+class AboutPageState extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: AppBar(),
       body: new Center(
         child: Column(
           children: <Widget>[

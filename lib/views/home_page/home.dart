@@ -13,6 +13,8 @@ class _MyHomePageState extends State<HomePage> {
   final _defaultColor = Colors.grey;
   final _activeColor = Colors.blue;
 
+  var list = ["无聊的功能", "练习", "关于"];
+
   PageController _controller = new PageController(
     initialPage: 0,
   );
@@ -21,6 +23,9 @@ class _MyHomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return new Scaffold(
+      appBar: AppBar(
+        title: Text(list[_currentIndex]),
+      ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: (index) {
@@ -78,6 +83,11 @@ class _MyHomePageState extends State<HomePage> {
       ),
       body: PageView(
         controller: _controller,
+        onPageChanged: (index){
+          setState(() {
+            _currentIndex = index;
+          });
+        },
         children: <Widget>[
           BoredPage(),
           PracticePage(),
