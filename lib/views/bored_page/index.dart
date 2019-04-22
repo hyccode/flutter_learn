@@ -4,7 +4,7 @@ import 'package:flutter_app/views/bored_page/clock_page/clock.dart';
 
 List<WidgetPoint> widgetPoints = [
   WidgetPoint(
-    name: '生死时钟',
+    name: '时间管理局',
     routerName: "/bored/login",
     color: Colors.red,
     buildRouter: (BuildContext context) => ClockPage(),
@@ -32,7 +32,7 @@ List<WidgetPoint> widgetPoints = [
     routerName: "",
     color: Colors.lightBlue,
     buildRouter: (BuildContext context) => null,
-  ) ,
+  ),
   WidgetPoint(
     name: '功能5',
     routerName: "",
