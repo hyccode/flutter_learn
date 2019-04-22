@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/views/home_page/about.dart';
-import 'package:flutter_app/views/home_page/bored.dart';
-import 'package:flutter_app/views/home_page/practice.dart';
+import 'package:flutter_app/views/about_page/about.dart';
+import 'package:flutter_app/views/bored_page/bored.dart';
+import 'package:flutter_app/views/practice_page/practice.dart';
 
 class HomePage extends StatefulWidget {
   @override

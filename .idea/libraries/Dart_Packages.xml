@@ -131,7 +131,7 @@
         <entry key="shared_preferences">
           <value>
             <list>
-              <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.4.3/lib" />
+              <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.5.2/lib" />
             </list>
           </value>
         </entry>
@@ -217,7 +217,7 @@
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/pedantic-1.5.0/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/quiver-2.0.1/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/rational-0.3.3/lib" />
-      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.4.3/lib" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.5.2/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/source_span-1.5.5/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/stack_trace-1.9.3/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/stream_channel-1.6.8/lib" />

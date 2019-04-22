@@ -6,7 +6,7 @@ import 'package:flutter_app/routers/application.dart';
 import 'package:flutter_app/utils/shared_preferences.dart';
 import 'package:flutter_app/resources/shared_preferences_keys.dart';
 import 'package:flutter_app/views/home_page/home.dart';
-import 'package:flutter_app/views/login/login.dart';
+import 'package:flutter_app/views/login_page/login.dart';
 
 SpUtil sp;
 
