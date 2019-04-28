@@ -1,4 +1,5 @@
 // ignore: uri_does_not_exist
+import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:fluro/fluro.dart';
 import 'package:flutter_app/routers/routers.dart';
@@ -12,6 +13,8 @@ SpUtil sp;
 
 void main() async {
   sp = await SpUtil.getInstance();
+  //开启log
+  LogUtil.init(isDebug: true, tag: "hyc");
   runApp(new MyApp());
 }
 

@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/utils/shared_preferences.dart';
 import 'package:flutter_app/views/bored_page/clock_page/live_clock.dart';
@@ -25,6 +26,11 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
   int waitingNextPageIndex = -1;
 
   double slidePercent = 0.0;
+
+  DateTime _fromDate;
+  TimeOfDay _fromTime;
+  bool isData = false;
+  bool isTime = false;
 
   ClockPageState() {
     slideUpdateStream = new StreamController<SlideUpdate>();
@@ -100,6 +106,9 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
   void initState() {
     super.initState();
 
+    getDate(0);
+    getDate(1);
+
     Future<String> _user = _prefs.then((SharedPreferences prefs) {
       return prefs.getString(SharedPreferencesKeys.UserId);
     });
@@ -112,6 +121,36 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
       });
     });
   }
+
+  void getDate(int type) async {
+    SpUtil instance = await SpUtil.getInstance();
+    if (type == 0) {
+      String string = instance.getString(SharedPreferencesKeys.birthday);
+      if (string != null && string.isNotEmpty) {
+        isData = true;
+        _fromDate = DateUtil.getDateTime(string);
+
+        LogUtil.e(string, tag: "date");
+        LogUtil.e(_fromDate.toString(), tag: "date");
+      } else {
+        isData = false;
+      }
+    } else if (type == 1) {
+      String string = instance.getString(SharedPreferencesKeys.birthday_time);
+      if (string != null && string.isNotEmpty) {
+        isTime = true;
+        _fromTime = TimeOfDay(
+            hour: int.parse(string.split(":")[0]),
+            minute: int.parse(string.split(":")[1]));
+
+        LogUtil.e(string, tag: "time");
+        LogUtil.e(_fromTime.toString(), tag: "time");
+      } else {
+        isTime = false;
+      }
+    }
+  }
+
 
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -126,6 +165,8 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
           new PageClock(
             // page 的主要内容
             viewModel: pages_clock[activeIndex],
+            fromDate: _fromDate,
+            fromTime: _fromTime,
             percentVisible: 1.0,
           ),
           new PageReveal(
@@ -184,24 +225,23 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
 }
 
 final pages_clock = [
-  PageViewClockModel(const Color(0xFFcd344f), 'assets/images/p1.png', "生命时钟",
-      'assets/images/plane.png', 1),
-  PageViewClockModel(const Color(0xFF638de3), 'assets/images/p1.png', "死亡时钟",
-      'assets/images/calendar.png', 2),
+  PageViewClockModel(const Color(0xFFcd344f),  "生命时钟",
+      'assets/images/live_clock_buttom.png', 1),
+  PageViewClockModel(const Color(0xFF638de3),  "死亡时钟",
+      'assets/images/death_clock_buttom.png', 2),
 ];
 
 class PageViewClockModel {
   final Color color;
-  final String heroAssetPath;
   final String title;
   final String iconAssetPath;
   final int position;
 
   PageViewClockModel(
     this.color,
-    this.heroAssetPath,
     this.title,
     this.iconAssetPath,
     this.position,
   );
+
 }

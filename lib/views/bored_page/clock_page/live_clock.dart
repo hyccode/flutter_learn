@@ -1,4 +1,9 @@
+import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app/utils/shared_preferences.dart';
+import 'package:flutter_app/views/bored_page/clock_page/live_clock_has_date.dart';
+import 'package:flutter_app/views/bored_page/clock_page/live_clock_no_date.dart';
+import 'package:flutter_app/views/bored_page/clock_page/share_data.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LiveClock extends StatefulWidget {
@@ -6,54 +11,16 @@ class LiveClock extends StatefulWidget {
   State<StatefulWidget> createState() => LivePageState();
 }
 
-class LivePageState extends State<LiveClock> {
-  DateTime _date = DateTime.now();
-  TimeOfDay _time = TimeOfDay.now();
-  Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
+class LivePageState extends State<LiveClock>
+    with AutomaticKeepAliveClientMixin {
+//  DateTime _fromDate = DateTime.now();
+//  TimeOfDay _fromTime = const TimeOfDay(hour: 0, minute: 0);
 
-  Future<void> _selectDate(BuildContext context) async {
-    final DateTime picked = await showDatePicker(
-        context: context,
-        initialDate: _date,
-        firstDate: DateTime(1900),
-        lastDate: DateTime.now());
-    if (picked != null && picked != _date)
-      print("data selectied :${_date.toString()}");
-    setState(() {
-      _date = picked;
-    });
-
-    if (picked == null) _date = DateTime.now();
-  }
-
-  Future<void> _selectTime(BuildContext context) async {
-    final TimeOfDay picked =
-        await showTimePicker(context: context, initialTime: _time);
-    if (picked != null && picked != _time)
-      print("data selectied :${_time.toString()}");
-    setState(() {
-      _time = picked;
-    });
-    if (picked == null) _time = TimeOfDay.now();
-  }
 
   @override
   void initState() {
     super.initState();
     print("live");
-
-    Future<bool> _unKnow = _prefs.then((SharedPreferences prefs) {
-      return (prefs.getBool('disclaimer::Boolean') ?? false);
-    });
-
-    /// 判断是否需要弹出免责声明,已经勾选过不在显示,就不会主动弹
-    _unKnow.then((bool value) {
-      new Future.delayed(const Duration(seconds: 1), () {
-        if (!value) {
-          _selectDate(context);
-        }
-      });
-    });
   }
 
   @override
@@ -63,27 +30,27 @@ class LivePageState extends State<LiveClock> {
       width: double.infinity,
       height: double.infinity,
       color: Colors.green,
-      child: Column(
-        mainAxisSize: MainAxisSize.max,
-        children: <Widget>[
-          Text('选择你出生日期时间'),
-          RaisedButton(
-            child: Text(
-                '你出生的日期:${_date.toString()} \n 你出生的时间:${_time.toString()}'),
-            onPressed: () {
-              _selectDate(context);
-            },
-          ),
-          Text('时间选择'),
-          RaisedButton(
-            child: Text('date selected'),
-            onPressed: () {
-              _selectTime(context);
-            },
-          )
-        ],
-      ),
+      child: getView(context),
     );
   }
 
+  getView(BuildContext context) {
+    if (ShareWidget.of(context).data!=null && ShareWidget.of(context).fromTime!=null) {
+      return ShareWidget(
+        data: ShareWidget.of(context).data,
+        fromTime: ShareWidget.of(context).fromTime,
+        child: LiveClockHasDate(),
+      );
+    } else {
+      return ShareWidget(
+        data: ShareWidget.of(context).data,
+        fromTime: ShareWidget.of(context).fromTime,
+        child: LiveClockNoDate(),
+      );
+    }
+  }
+
+  @override
+  // TODO: implement wantKeepAlive
+  bool get wantKeepAlive => true;
 }
