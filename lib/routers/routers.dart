@@ -2,6 +2,7 @@ import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/routers/router_handler.dart';
 import 'package:flutter_app/views/index.dart';
+import 'package:flutter_app/widgets/404.dart';
 
 class Routes {
   static String root = "/";
@@ -21,6 +22,9 @@ class Routes {
     widgetDemosList.forEach((demo) {
       Handler handler = new Handler(handlerFunc:
           (BuildContext context, Map<String, List<String>> params) {
+        if(demo.buildRouter(context)==null){
+          return WidgetNotFound();
+        }
         return demo.buildRouter(context);
       });
       router.define('${demo.routerName}', handler: handler);

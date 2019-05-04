@@ -1,10 +1,7 @@
-import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/utils/shared_preferences.dart';
 import 'package:flutter_app/views/bored_page/clock_page/live_clock_has_date.dart';
 import 'package:flutter_app/views/bored_page/clock_page/live_clock_no_date.dart';
 import 'package:flutter_app/views/bored_page/clock_page/share_data.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class LiveClock extends StatefulWidget {
   @override

@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_app/routers/application.dart';
-import 'package:flutter_app/routers/routers.dart';
 
 class ListDemo extends StatelessWidget {
   @override
@@ -34,6 +33,9 @@ class RandomWordsState extends State<RandomWords> {
 //    return new Text(wordPair.asPascalCase);
     return new Scaffold(
       appBar: new AppBar(
+        leading: IconButton(icon: Icon(Icons.arrow_back_ios), onPressed: () {
+          Application.router.pop(context);
+        }),
         title: new Text('Startup Name Generator'),
         actions: <Widget>[
           new IconButton(icon: new Icon(Icons.list), onPressed: _pushSaved),

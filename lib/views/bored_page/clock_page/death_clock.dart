@@ -1,6 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/utils/shared_preferences.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_app/views/bored_page/clock_page/death_clock_no_date.dart';
+
+
 
 class DeathClock extends StatefulWidget {
   @override
@@ -8,12 +10,11 @@ class DeathClock extends StatefulWidget {
 }
 
 class DeathPageState extends State<DeathClock> {
-  int deathYear = 0;
+
 
   @override
   void initState() {
     super.initState();
-    getDeathYear();
   }
 
   @override
@@ -23,17 +24,18 @@ class DeathPageState extends State<DeathClock> {
       width: double.infinity,
       height: double.infinity,
       color: Colors.black,
-      child: Column(
-        mainAxisSize: MainAxisSize.max,
-        children: <Widget>[
-          Text('选择你死亡日期时间'),
-        ],
-      ),
+      child: getView(),
     );
   }
 
-  getDeathYear() async {
-    SpUtil instance = await SpUtil.getInstance();
-    deathYear = instance.getInt(SharedPreferencesKeys.death_year);
+
+  getView() {
+    return DeathClockNoDate();
   }
+
+
+
+
 }
+
+

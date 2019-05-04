@@ -19,26 +19,30 @@ class LiveClockNoDateState extends State<LiveClockNoDate> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
       mainAxisSize: MainAxisSize.max,
       children: <Widget>[
         Text(
           "你出生的日期和时间",
         ),
-        DateTimePicker(
-          selectedDate: ShareWidget.of(context).data??DateTime.now(),
-          selectedTime: ShareWidget.of(context).fromTime??TimeOfDay(hour: 0, minute: 0),
-          selectDate: (DateTime date) {
-            putDate(0, date);
-            setState(() {
-              ShareWidget.of(context).data = date;
-            });
-          },
-          selectTime: (TimeOfDay time) {
-            putDate(1, time);
-            setState(() {
-              ShareWidget.of(context).fromTime = time;
-            });
-          },
+        Container(
+          margin: EdgeInsets.all(20),
+          child: DateTimePicker(
+            selectedDate: ShareWidget.of(context).data ?? DateTime.now(),
+            selectedTime: ShareWidget.of(context).fromTime ?? TimeOfDay.now(),
+            selectDate: (DateTime date) {
+              putDate(0, date);
+              setState(() {
+                ShareWidget.of(context).data = date;
+              });
+            },
+            selectTime: (TimeOfDay time) {
+              putDate(1, time);
+              setState(() {
+                ShareWidget.of(context).fromTime = time;
+              });
+            },
+          ),
         ),
       ],
     );
@@ -47,12 +51,15 @@ class LiveClockNoDateState extends State<LiveClockNoDate> {
   void putDate(int type, var data) async {
     SpUtil instance = await SpUtil.getInstance();
     if (type == 0) {
-      if(data is DateTime){
+      if (data is DateTime) {
         instance.putString(SharedPreferencesKeys.birthday, data.toString());
       }
     } else if (type == 1) {
-      if(data is TimeOfDay){
-        instance.putString(SharedPreferencesKeys.birthday_time, data.format(context));
+      if (data is TimeOfDay) {
+//        instance.putString(SharedPreferencesKeys.birthday_time, data.format(context));
+
+        instance.putString(
+            SharedPreferencesKeys.birthday_time, '${data.hour}:${data.minute}');
       }
     }
   }
