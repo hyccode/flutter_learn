@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:intl/intl.dart' as date;
 import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/routers/application.dart';
@@ -27,8 +28,34 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
 
   double slidePercent = 0.0;
 
-  DateTime _fromDate=null;
-  TimeOfDay _fromTime=null;
+  //选择的年龄
+  int deathYear = 0;
+
+  //出生年月
+  DateTime _fromDate;
+
+  TimeOfDay _fromTime;
+
+  _notifyDataTime(DateTime value) {
+    putDate(0, value);
+    setState(() {
+      _fromDate = value;
+    });
+  }
+
+  _notifyTimeOfDay(value) {
+    putDate(1, value);
+    setState(() {
+      _fromTime = value;
+    });
+  }
+
+  _notifyDeathYear(value) {
+    putDate(2, value);
+    setState(() {
+      deathYear = value;
+    });
+  }
 
   ClockPageState() {
     slideUpdateStream = new StreamController<SlideUpdate>();
@@ -104,8 +131,7 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
   void initState() {
     super.initState();
 
-    getDate(0);
-    getDate(1);
+    getDate();
 
     Future<String> _user = _prefs.then((SharedPreferences prefs) {
       return prefs.getString(SharedPreferencesKeys.UserId);
@@ -123,24 +149,47 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
   /**
    * 获取缓存
    */
-  void getDate(int type) async {
+  void getDate() async {
+    SpUtil instance = await SpUtil.getInstance();
+
+    String string = instance.getString(SharedPreferencesKeys.birthday);
+    if (string != null && string.isNotEmpty) {
+      _fromDate = DateUtil.getDateTime(string);
+
+      LogUtil.e(string, tag: "date");
+      LogUtil.e(_fromDate.toString(), tag: "date");
+    }
+
+    String string_time =
+        instance.getString(SharedPreferencesKeys.birthday_time);
+    if (string_time != null && string_time.isNotEmpty) {
+      _fromTime = TimeOfDay(
+          hour: int.parse(string_time.split(":")[0]),
+          minute: int.parse(string_time.split(":")[1]));
+      LogUtil.e(string_time, tag: "time");
+      LogUtil.e(_fromTime.toString(), tag: "time");
+    }
+
+    deathYear = instance.getInt(SharedPreferencesKeys.death_year);
+  }
+
+  /**
+   * 存数据
+   */
+  void putDate(int type, var data) async {
     SpUtil instance = await SpUtil.getInstance();
     if (type == 0) {
-      String string = instance.getString(SharedPreferencesKeys.birthday);
-      if (string != null && string.isNotEmpty) {
-        _fromDate = DateUtil.getDateTime(string);
-
-        LogUtil.e(string, tag: "date");
-        LogUtil.e(_fromDate.toString(), tag: "date");
+      if (data is DateTime) {
+        instance.putString(SharedPreferencesKeys.birthday, data.toString());
       }
     } else if (type == 1) {
-      String string = instance.getString(SharedPreferencesKeys.birthday_time);
-      if (string != null && string.isNotEmpty) {
-        _fromTime = TimeOfDay(
-            hour: int.parse(string.split(":")[0]),
-            minute: int.parse(string.split(":")[1]));
-        LogUtil.e(string, tag: "time");
-        LogUtil.e(_fromTime.toString(), tag: "time");
+      if (data is TimeOfDay) {
+        instance.putString(
+            SharedPreferencesKeys.birthday_time, '${data.hour}:${data.minute}');
+      }
+    } else if (type == 2) {
+      if (data is int) {
+        instance.putInt(SharedPreferencesKeys.death_year, data);
       }
     }
   }
@@ -156,7 +205,8 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
       _fromDate = null;
       _fromTime = null;
     } else if (type == 1) {
-
+      instance.remove(SharedPreferencesKeys.death_year);
+      deathYear = 0;
     }
   }
 
@@ -165,57 +215,61 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Scaffold(
-      key: _scaffoldKey,
-      appBar: AppBar(
-        leading: IconButton(
-            icon: Icon(Icons.arrow_back_ios),
-            onPressed: () {
-              Application.router.pop(context);
-            }),
-        actions: <Widget>[
-          new IconButton(
-            icon: new Icon(Icons.menu),
-            onPressed: () {
-              _scaffoldKey.currentState.openEndDrawer();
-            },
-          ),
-        ],
-      ),
-      body: new Stack(
-        children: [
-          new ShareWidget(
-            data: _fromDate,
-            fromTime: _fromTime,
-            child: PageClock(
+    return ShareWidget(
+      data: _fromDate,
+      fromTime: _fromTime,
+      deathYear: deathYear,
+      notifyDataTime: _notifyDataTime,
+      notifyDeathYear: _notifyDeathYear,
+      notifyTimeOfDay: _notifyTimeOfDay,
+      child: Scaffold(
+        key: _scaffoldKey,
+        appBar: AppBar(
+          leading: IconButton(
+              icon: Icon(Icons.arrow_back_ios),
+              onPressed: () {
+                Application.router.pop(context);
+              }),
+          actions: <Widget>[
+            new IconButton(
+              icon: new Icon(Icons.menu),
+              onPressed: () {
+                _scaffoldKey.currentState.openEndDrawer();
+              },
+            ),
+          ],
+        ),
+        body: new Stack(
+          children: [
+            new PageClock(
               // page 的主要内容
               viewModel: pages_clock[activeIndex],
               percentVisible: 1.0,
             ),
-          ),
-          new PageReveal(
-            revealPercent: slidePercent,
-            child: new PageClock(
-              viewModel: pages_clock[nextPageIndex],
-              percentVisible: slidePercent,
+            new PageReveal(
+              revealPercent: slidePercent,
+              child: new PageClock(
+                viewModel: pages_clock[nextPageIndex],
+                percentVisible: slidePercent,
+              ),
             ),
-          ),
-          new PagerIndicator(
-            viewModel: new PagerIndicatorViewModel(
-              pages_clock,
-              activeIndex,
-              slideDirection,
-              slidePercent,
+            new PagerIndicator(
+              viewModel: new PagerIndicatorViewModel(
+                pages_clock,
+                activeIndex,
+                slideDirection,
+                slidePercent,
+              ),
             ),
-          ),
-          new PageDragger(
-            canDragLeftToRight: activeIndex > 0,
-            canDragRightToLeft: activeIndex < pages_clock.length - 1,
-            slideUpdateStream: this.slideUpdateStream,
-          ),
-        ],
+            new PageDragger(
+              canDragLeftToRight: activeIndex > 0,
+              canDragRightToLeft: activeIndex < pages_clock.length - 1,
+              slideUpdateStream: this.slideUpdateStream,
+            ),
+          ],
+        ),
+        endDrawer: _drawer,
       ),
-      endDrawer: _drawer,
     );
   }
 
@@ -239,6 +293,9 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
                   activeIndex = 0;
                 });
               },
+              subtitle: (_fromDate != null && _fromTime != null)
+                  ? Text(getBirday())
+                  : null,
               title: Text("重设生日"),
             ),
             ListTile(
@@ -249,11 +306,27 @@ class ClockPageState extends State<ClockPage> with TickerProviderStateMixin {
                   activeIndex = 1;
                 });
               },
+              subtitle: deathYear != null &&
+                  deathYear > 0
+                  ? Text("活到$deathYear岁")
+                  : null,
               title: Text("重设寿命"),
             ),
           ],
         ),
       );
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    print("clock Dependencies change");
+  }
+
+  String getBirday() {
+    var format = date.DateFormat.yMMMd().format(_fromDate);
+    var format2 = _fromTime.format(context);
+    return format + format2;
+  }
 }
 
 final pages_clock = [

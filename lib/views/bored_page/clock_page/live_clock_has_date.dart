@@ -43,7 +43,7 @@ class LiveClockHasDateState extends State<LiveClockHasDate> {
           inMinutes = difference.inMinutes;
           inSeconds = difference.inSeconds;
           _time = difference.inMicroseconds / Duration.microsecondsPerDay / 365;
-          LogUtil.e(difference.toString(), tag: "difference");
+//          LogUtil.e(difference.toString(), tag: "difference");
         }
       });
     });
@@ -117,5 +117,11 @@ class LiveClockHasDateState extends State<LiveClockHasDate> {
   String getMouth() {
     var d = inDays ~/ 30;
     return "$d\n月";
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    print("live_has Dependencies change");
   }
 }

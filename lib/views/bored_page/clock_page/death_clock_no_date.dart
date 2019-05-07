@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/utils/shared_preferences.dart';
+import 'package:flutter_app/views/bored_page/clock_page/share_data.dart';
 
 const double _kPickerSheetHeight = 216.0;
 const double _kPickerItemHeight = 32.0;
@@ -11,34 +12,14 @@ class DeathClockNoDate extends StatefulWidget {
 }
 
 class DeathClockNoDateState extends State<DeathClockNoDate> {
-  int deathYear = 0;
   int _selectedColorIndex = 0;
 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      mainAxisSize: MainAxisSize.max,
-      children: <Widget>[
-        Text(
-          '选择你想活到的年龄',
-          style: TextStyle(color: Colors.white),
-        ),
-        _buildColorPicker(context),
-        IconButton(icon: Icon(Icons.check),
-            onPressed: () {
-          getDeathYear();
-            },)
-      ],
-    );
+    return getView(context);
   }
 
-  getDeathYear() async {
-    SpUtil instance = await SpUtil.getInstance();
-    instance.putInt(SharedPreferencesKeys.death_year,getYearList()[_selectedColorIndex]);
-    deathYear = instance.getInt(SharedPreferencesKeys.death_year);
-  }
 
   Widget _buildColorPicker(BuildContext context) {
     final FixedExtentScrollController scrollController =
@@ -108,5 +89,44 @@ class DeathClockNoDateState extends State<DeathClockNoDate> {
       list.add(i);
     }
     return list;
+  }
+
+  Widget getView(BuildContext context) {
+    if (ShareWidget.of(context).data == null ||
+        ShareWidget.of(context).fromTime == null) {
+      return Container(
+        alignment: Alignment.center,
+        child: Text(
+          '请先选择你的出生日期和时间',
+          style: TextStyle(color: Colors.white),
+        ),
+      );
+    } else {
+      return Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
+        children: <Widget>[
+          Text(
+            '选择你想活到的年龄',
+            style: TextStyle(color: Colors.white),
+          ),
+          _buildColorPicker(context),
+          IconButton(
+            icon: Icon(Icons.check),
+            color: Colors.white,
+            disabledColor: Colors.white,
+            onPressed: () {
+              ShareWidget.of(context).notifyDeathYear(getYearList()[_selectedColorIndex]);
+            },
+          )
+        ],
+      );
+    }
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    print("death_no Dependencies change");
   }
 }

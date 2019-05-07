@@ -1,7 +1,5 @@
-import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_app/utils/shared_preferences.dart';
 import 'package:flutter_app/views/bored_page/clock_page/share_data.dart';
 import 'package:flutter_app/widgets/date_picker.dart';
 
@@ -31,16 +29,10 @@ class LiveClockNoDateState extends State<LiveClockNoDate> {
             selectedDate: ShareWidget.of(context).data ?? DateTime.now(),
             selectedTime: ShareWidget.of(context).fromTime ?? TimeOfDay.now(),
             selectDate: (DateTime date) {
-              putDate(0, date);
-              setState(() {
-                ShareWidget.of(context).data = date;
-              });
+              ShareWidget.of(context).notifyDataTime(date);
             },
             selectTime: (TimeOfDay time) {
-              putDate(1, time);
-              setState(() {
-                ShareWidget.of(context).fromTime = time;
-              });
+              ShareWidget.of(context).notifyTimeOfDay(time);
             },
           ),
         ),
@@ -48,19 +40,9 @@ class LiveClockNoDateState extends State<LiveClockNoDate> {
     );
   }
 
-  void putDate(int type, var data) async {
-    SpUtil instance = await SpUtil.getInstance();
-    if (type == 0) {
-      if (data is DateTime) {
-        instance.putString(SharedPreferencesKeys.birthday, data.toString());
-      }
-    } else if (type == 1) {
-      if (data is TimeOfDay) {
-//        instance.putString(SharedPreferencesKeys.birthday_time, data.format(context));
-
-        instance.putString(
-            SharedPreferencesKeys.birthday_time, '${data.hour}:${data.minute}');
-      }
-    }
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    print("live_no Dependencies change");
   }
 }

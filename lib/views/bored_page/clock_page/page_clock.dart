@@ -1,3 +1,4 @@
+import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/views/bored_page/clock_page/clock.dart';
 import 'package:flutter_app/views/bored_page/clock_page/death_clock.dart';
@@ -28,11 +29,7 @@ class PageClock extends StatelessWidget {
 
   getPage(BuildContext context) {
     if (viewModel.position == 1) {
-      return ShareWidget(
-        data: ShareWidget.of(context).data,
-        fromTime: ShareWidget.of(context).fromTime,
-        child: LiveClock(),
-      );
+      return LiveClock();
     } else if (viewModel.position == 2) {
       return DeathClock();
     }

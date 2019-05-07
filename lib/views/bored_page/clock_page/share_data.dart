@@ -2,10 +2,27 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class ShareWidget extends InheritedWidget {
-  DateTime data;
-  TimeOfDay fromTime;
+  DateTime data ;
+  TimeOfDay fromTime ;
+  int deathYear ;
 
-  ShareWidget({@required this.data, @required this.fromTime, Widget child})
+  //更新生日的方法
+  final ValueChanged<DateTime> notifyDataTime;
+
+  //更新生日的方法
+  final ValueChanged<TimeOfDay> notifyTimeOfDay;
+
+  //更新死去时间的方法
+  final ValueChanged<int> notifyDeathYear;
+
+  ShareWidget(
+      {@required this.data,
+      @required this.fromTime,
+      @required this.deathYear,
+      @required this.notifyDataTime,
+      @required this.notifyDeathYear,
+      @required this.notifyTimeOfDay,
+      Widget child})
       : super(child: child);
 
   //定义一个方法，方便子树中的widget获取这个widget，进而获得共享数据。
@@ -21,9 +38,11 @@ class ShareWidget extends InheritedWidget {
 
   /**
    * framework通过使用以前占据树中的这个位置的小部件作为参数调用这个函数来区分这些情况。
-   */
+   * */
   @override
   bool updateShouldNotify(ShareWidget oldWidget) {
-    return oldWidget.data != data;
+    return oldWidget.data != data ||
+        oldWidget.fromTime != fromTime ||
+        oldWidget.deathYear != deathYear;
   }
 }

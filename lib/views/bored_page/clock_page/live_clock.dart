@@ -13,7 +13,6 @@ class LivePageState extends State<LiveClock>
 //  DateTime _fromDate = DateTime.now();
 //  TimeOfDay _fromTime = const TimeOfDay(hour: 0, minute: 0);
 
-
   @override
   void initState() {
     super.initState();
@@ -32,19 +31,20 @@ class LivePageState extends State<LiveClock>
   }
 
   getView(BuildContext context) {
-    if (ShareWidget.of(context).data!=null && ShareWidget.of(context).fromTime!=null) {
-      return ShareWidget(
-        data: ShareWidget.of(context).data,
-        fromTime: ShareWidget.of(context).fromTime,
-        child: LiveClockHasDate(),
-      );
+    var data = ShareWidget.of(context).data;
+    var fromTime = ShareWidget.of(context).fromTime;
+
+    if (data == null || fromTime == null) {
+      return LiveClockNoDate();
     } else {
-      return ShareWidget(
-        data: ShareWidget.of(context).data,
-        fromTime: ShareWidget.of(context).fromTime,
-        child: LiveClockNoDate(),
-      );
+      return LiveClockHasDate();
     }
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    print("LiveClock Dependencies change");
   }
 
   @override
