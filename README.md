@@ -1,5 +1,8 @@
-# flutter_learn_demo
-一个学习flutter的demo
+# 一个flutter学习项目
+本项目包含引导页,登陆页,控件使用,网络请求,一些无聊的小功能
 
 ## Screenshot
 
+
+## 项目文件目录
+[目录](tree)

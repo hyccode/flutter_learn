@@ -5,7 +5,7 @@ import 'package:flutter_app/views/practice_page/animal_page.dart';
 import 'package:flutter_app/views/practice_page/banner_page.dart';
 import 'package:flutter_app/views/practice_page/dialog_page.dart';
 import 'package:flutter_app/views/practice_page/listdemo_page/listdome.dart';
-import 'package:flutter_app/views/practice_page/network_page.dart';
+import 'package:flutter_app/views/practice_page/net/network_page.dart';
 import 'package:flutter_app/views/practice_page/page_indicator_page/page_indicator_page.dart';
 
 List<WidgetPoint> widgetPoints = [

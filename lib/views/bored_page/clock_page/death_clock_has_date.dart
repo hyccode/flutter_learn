@@ -156,7 +156,7 @@ class DeathClockHasDateState extends State<DeathClockHasDate> {
         var d = inDays * 3;
         return "吃饭$d次>";
       case 1:
-        var d = inDays ~/ 100;
+        var d = inDays ~/ 200;
         return "看书$d本>";
       case 2:
         var d = inDays ~/ 60;
@@ -168,7 +168,7 @@ class DeathClockHasDateState extends State<DeathClockHasDate> {
         var d = inDays ~/ 5;
         return "拉屎$d次>";
       case 5:
-        var d = inDays ~/ 100;
+        var d = inDays ~/ 150;
         return "陪父母$d天>";
     }
   }
