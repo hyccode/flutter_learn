@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_app/routers/application.dart';
-import 'package:flutter_app/routers/routers.dart';
 import 'package:flutter_app/views/practice_page/net/net_dio_utils.dart';
 
 class NetworkPage extends StatefulWidget {

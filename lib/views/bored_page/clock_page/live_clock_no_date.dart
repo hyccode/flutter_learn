@@ -4,9 +4,6 @@ import 'package:flutter_app/views/bored_page/clock_page/share_data.dart';
 import 'package:flutter_app/widgets/date_picker.dart';
 
 class LiveClockNoDate extends StatefulWidget {
-  LiveClockNoDate({
-    Key key,
-  }) : super(key: key);
 
   @override
   State<StatefulWidget> createState() => LiveClockNoDateState();

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/model/widget.dart';
+import 'package:flutter_app/views/bored_page/chengyu_page/chengyu_page.dart';
 import 'package:flutter_app/views/bored_page/clock_page/clock.dart';
 
 List<WidgetPoint> widgetPoints = [
@@ -10,10 +11,10 @@ List<WidgetPoint> widgetPoints = [
     buildRouter: (BuildContext context) => ClockPage(),
   ),
   WidgetPoint(
-    name: '功能1',
-    routerName: "/bored/list",
+    name: '成语解析',
+    routerName: "/bored/chengYu",
     color: Colors.yellow,
-    buildRouter: (BuildContext context) => null,
+    buildRouter: (BuildContext context) => ChengYuPage(),
   ),
   WidgetPoint(
     name: '功能2',

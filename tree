@@ -1,15 +1,15 @@
 lib
 ├── common
-├── data
+├── data  网络请求解析模块
 │   ├── api
 │   ├── net
 │   ├── protocol
 │   └── repository
 ├── model
 ├── resources
-├── routers
-├── utils
-├── views
+├── routers  界面路由设置
+├── utils    工具类
+├── views    界面布局和逻辑
 │   ├── about_page
 │   ├── bored_page
 │   │   └── clock_page

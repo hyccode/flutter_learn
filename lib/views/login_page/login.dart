@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/routers/application.dart';
 import 'package:flutter_app/routers/routers.dart';
 import 'package:flutter_app/utils/shared_preferences.dart';
+import 'package:flutter_app/widgets/text/text_from_field.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -57,16 +58,20 @@ class LoginPageState extends State {
                     },
                   ),
                   const SizedBox(height: 24.0),
-                  TextFormField(
-                    decoration: const InputDecoration(
-                      icon: Icon(Icons.lock),
-                      hintText: '请输入您的密码',
-                      labelText: '密码 *',
-                    ),
+                  PasswordField(
+                    hintText: '请输入您的密码',
+                    labelText: '密码 *',
+                    helperText: "密码最多设置8位",
                     validator: (val) =>
-                        (val == null || val.isEmpty) ? "密码不能为空" : null, //表单验证
+                        (val == null || val.isEmpty) ? "密码不能为空" : null,
+                    //表单验证
                     onSaved: (val) {
                       _password = val;
+                    },
+                    onFieldSubmitted: (String value) {
+                      setState(() {
+                        _password = value;
+                      });
                     },
                   ),
                 ],
@@ -110,7 +115,7 @@ class LoginPageState extends State {
     }
   }
 
-  void saveUserId() async{
+  void saveUserId() async {
     SpUtil instance = await SpUtil.getInstance();
     instance.putString(SharedPreferencesKeys.UserId, _name);
   }

@@ -22,5 +22,13 @@
     {
         "merged": "/Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/app/intermediates/res/merged/debug/drawable_toast_bg.xml.flat",
+        "source": "/Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/fluttertoast/intermediates/packaged_res/debug/drawable/toast_bg.xml"
+    },
+    {
+        "merged": "/Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/app/intermediates/res/merged/debug/layout_toast_custom.xml.flat",
+        "source": "/Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/fluttertoast/intermediates/packaged_res/debug/layout/toast_custom.xml"
     }
 ]

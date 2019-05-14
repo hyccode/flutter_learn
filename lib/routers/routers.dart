@@ -19,7 +19,7 @@ class Routes {
     router.define(webViewPage, handler: webViewPageHander);
 
     List widgetDemosList = new PageList().getDemos();
-    widgetDemosList.add(NetWork);
+    widgetDemosList.addAll(NetWork);
     router.notFoundHandler = new Handler(
         handlerFunc:
             (BuildContext context, Map<String, List<String>> params) {});

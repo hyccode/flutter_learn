@@ -10,11 +10,19 @@ package com.example.flutter_app;
 public final class R {
   public static final class drawable {
     public static final int launch_background=0x7f010000;
+    public static final int toast_bg=0x7f010001;
+  }
+  public static final class id {
+    public static final int custom_toast_container=0x7f020000;
+    public static final int text=0x7f020001;
+  }
+  public static final class layout {
+    public static final int toast_custom=0x7f030000;
   }
   public static final class mipmap {
-    public static final int ic_launcher=0x7f020000;
+    public static final int ic_launcher=0x7f040000;
   }
   public static final class style {
-    public static final int LaunchTheme=0x7f030000;
+    public static final int LaunchTheme=0x7f050000;
   }
 }
