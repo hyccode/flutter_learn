@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/model/widget.dart';
 import 'package:flutter_app/views/bored_page/chengyu_page/chengyu_page.dart';
 import 'package:flutter_app/views/bored_page/clock_page/clock.dart';
+import 'package:flutter_app/views/bored_page/history_page/history_page.dart';
+import 'package:flutter_app/views/bored_page/kpi_page/kpi_page.dart';
 
 List<WidgetPoint> widgetPoints = [
   WidgetPoint(
@@ -17,16 +19,16 @@ List<WidgetPoint> widgetPoints = [
     buildRouter: (BuildContext context) => ChengYuPage(),
   ),
   WidgetPoint(
-    name: '功能2',
-    routerName: "",
+    name: '历史上的今天',
+    routerName: "/bored/history",
     color: Colors.blue,
-    buildRouter: (BuildContext context) => null,
+    buildRouter: (BuildContext context) => HistoryPage(),
   ),
   WidgetPoint(
-    name: '功能3',
-    routerName: "",
+    name: '考核打分',
+    routerName: "/bored/kpi",
     color: Colors.deepPurple,
-    buildRouter: (BuildContext context) => null,
+    buildRouter: (BuildContext context) => KPIPage(),
   ),
   WidgetPoint(
     name: '功能4',

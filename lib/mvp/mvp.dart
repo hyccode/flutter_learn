@@ -1,7 +1,6 @@
+class IView {}
 
-class IView{}
-
-class IPresenter{}
+class IPresenter {}
 
 abstract class BasePresenter<T> {
   T view;
@@ -13,27 +12,42 @@ abstract class BasePresenter<T> {
   void stop() {
     this.view = null;
   }
+
+  /**
+   * 是否与View建立连接
+   * 每次调用业务请求的时候都要出先调用方法检查是否与View建立连接
+   */
+  bool isViewAttached() {
+    return this.view != null;
+  }
 }
 
+class ILoadingView extends IView {
+  void showLoading({String msg}) {}
 
-class ILoadingView extends IView{
+  void closeLoading() {}
 
-  void showLoading({String msg}){}
+  void renderPage(Object o) {}
 
-  void closeLoading(){}
+  void reload() {}
 
-  void renderPage(Object o){}
+  void showError({String msg}) {}
 
-  void reload(){}
-
-  void showError({String msg}){}
-
-  void showDisconnect(){}
-
+  void showDisconnect() {}
 }
 
-class ILoadingListView extends ILoadingView{
+class ILoadingListView extends IView {
+  void showError({String msg}) {}
 
-  void showEmpty(){}
+  void showData(Object o,{bool isLoadMore}){}
 
+  void showEmpty() {}
+
+  void startRefresh() {}
+
+  void finishRefresh() {}
+
+  void startLoadMore() {}
+
+  void finishLoadMore() {}
 }

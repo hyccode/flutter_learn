@@ -71,7 +71,7 @@ class DioUtil {
   }
 
   /// get dio.
-  Dio getDio() {
+  static Dio getDio() {
     return _dio ?? new Dio();
   }
 
@@ -95,7 +95,7 @@ class DioUtil {
   /// [data] The request data
   /// [options] The request options.
   /// <BaseResp<T> 返回 status code msg data .
-  Future<BaseResp<T>> request<T>(String method, String path,
+  Future<BaseResp> request<T>(String method, String path,
       {data, Options options, CancelToken cancelToken}) async {
     Response response = await _dio.request(path,
         data: data, options: Options(method: method), cancelToken: cancelToken);
@@ -155,18 +155,25 @@ class DioUtil {
     return options;
   }
 
-  //设置拦截器
+  ///设置拦截器
   InterceptorsWrapper _interceptorsWrapper =
       InterceptorsWrapper(onRequest: (Options options) {
+    // 在请求被发送之前做一些事情
     return options;
+  }, onResponse: (Response response) {
+    // 在返回响应数据之前做一些预处理
+    return response; // continue
+  }, onError: (DioError e) {
+    // 当请求失败时做一些预处理
+    return e; //continue
   });
 
   //get请求结构
-  Future<BaseResp<T>> _get<T>(String url, {Map<String, dynamic> params}) async {
+  Future<BaseResp> _get<T, M>(String url, {Map<String, dynamic> params}) async {
     var response = await _dio.get(url, queryParameters: params);
     int _code;
     String _msg;
-    var _data;
+    T _data;
     if (response.statusCode == HttpStatus.ok ||
         response.statusCode == HttpStatus.created) {
       try {
@@ -184,8 +191,17 @@ class DioUtil {
           _msg = _dataMap[_reason];
           _data = _dataMap[_result];
         }
-        return new BaseResp(_code, _msg, EntityFactory.generateOBJ<T>(_data));
-//        return new BaseResp(_code, _msg, _data);
+        if (_data is Map) {
+          return new BaseResp(_code, _msg, EntityFactory.generateOBJ<M>(_data));
+        } else {
+          List<M> list;
+          if (_data != null) {
+            list = (_data as List)
+                .map((value) => EntityFactory.generateOBJ<M>(value))
+                .toList();
+          }
+          return new BaseResp(_code, _msg, list);
+        }
       } catch (e) {
         LogUtil.e(e.toString(), tag: "data parsing");
         return new Future.error(new DioError(
@@ -195,6 +211,8 @@ class DioUtil {
         ));
       }
     }
+    LogUtil.e("statusCode: $response.statusCode, service error",
+        tag: "data parsing");
     return new Future.error(new DioError(
       response: response,
       message: "statusCode: $response.statusCode, service error",
@@ -211,6 +229,7 @@ class DioUtil {
   Observable postO(String url, Map<String, dynamic> params) =>
       Observable.fromFuture(_post(url, params)).asBroadcastStream();
 
-  Observable getO<T>(String url, {Map<String, dynamic> params}) =>
-      Observable.fromFuture(_get<T>(url, params: params)).asBroadcastStream();
+  Observable getO<T, M>(String url, {Map<String, dynamic> params}) =>
+      Observable.fromFuture(_get<T, M>(url, params: params))
+          .asBroadcastStream();
 }

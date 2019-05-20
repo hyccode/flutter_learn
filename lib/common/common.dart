@@ -7,6 +7,12 @@ class Constant {
 
   static const String wan_android = "http://www.wanandroid.com/";
 
+
+  /// 成语词典 key
+  static const String chengyu_key = "e1ea4240d072adbadfb8b793b1cad2d3";
+  /// 历史上的今天 key
+  static const String history_key = "37e75772f1cfbdc3e3cfeea6c9094582";
+
   static const int type_sys_update = 1;
   static const String key_theme_color = 'key_theme_color';
   static const String key_guide = 'key_guide';

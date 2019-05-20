@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/common/baseful_widget.dart';
 import 'package:flutter_app/model/widget.dart';
 import 'package:flutter_app/routers/router_handler.dart';
+import 'package:flutter_app/views/bored_page/kpi_page/kpi_list_page.dart';
 import 'package:flutter_app/views/index.dart';
 import 'package:flutter_app/views/practice_page/net/net_dio_utils.dart';
 import 'package:flutter_app/widgets/404.dart';
@@ -12,11 +13,13 @@ class Routes {
   static String home = "/home";
   static String webViewPage = "/webviewpage";
   static String login = "/login";
+  static String historyinfo = "/bored/history/info";
 
   static void configureRoutes(Router router) {
     router.define(login, handler: loginHandler);
     router.define(home, handler: homeHandler);
     router.define(webViewPage, handler: webViewPageHander);
+    router.define(historyinfo, handler: historyInfoPageHander);
 
     List widgetDemosList = new PageList().getDemos();
     widgetDemosList.addAll(NetWork);
@@ -26,16 +29,14 @@ class Routes {
     widgetDemosList.forEach((demo) {
       Handler handler = new Handler(handlerFunc:
           (BuildContext context, Map<String, List<String>> params) {
-        if(demo.buildRouter(context)==null){
+        if (demo.buildRouter(context) == null) {
           return WidgetNotFound();
         }
         return demo.buildRouter(context);
       });
       router.define('${demo.routerName}', handler: handler);
     });
-
   }
-
 }
 
 List<WidgetPoint> NetWork = [
@@ -44,7 +45,9 @@ List<WidgetPoint> NetWork = [
     routerName: DioNetUtilsPage.routeName,
     buildRouter: (BuildContext context) => DioNetUtilsPage(),
   ),
+  WidgetPoint(
+    name: '打分记录',
+    routerName: KPIListPage.routeName,
+    buildRouter: (BuildContext context) => KPIListPage(),
+  ),
 ];
-
-
-

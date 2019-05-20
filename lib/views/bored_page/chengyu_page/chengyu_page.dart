@@ -1,37 +1,33 @@
 import 'package:common_utils/common_utils.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/common/baseful_widget.dart';
+import 'package:flutter_app/common/page_state.dart';
 import 'package:flutter_app/data/protocol/chengyu_entity.dart';
 import 'package:flutter_app/mvp/contract/chengyu_contract.dart';
 import 'package:flutter_app/mvp/presenter/chengyu_presenter.dart';
+import 'package:flutter_app/utils/toast_utils.dart';
 import 'package:flutter_app/views/bored_page/chengyu_page/chengyu_info.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 
-class ChengYuPage extends BasefulWidget implements View {
+class ChengYuPage extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() => ChengYuStatePage();
+}
+
+class ChengYuStatePage extends BaseLoadingPageState<ChengYuPage>
+    implements View {
   ChengYuPresenter chengYuPresenter;
 
-  ChengYuPage() {
+  ChengYuStatePage() {
     chengYuPresenter = new ChengYuPresenter(this);
   }
 
   ChengyuEntity chengyuEntity;
+  String _message;
 
   final TextEditingController _controller = new TextEditingController();
 
-//   String text;
-
-  @override
-  void initState() {
-    LogUtil.e("initState");
-  }
-
-  @override
-  void dispose() {
-    LogUtil.e("dispose");
-  }
-
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
@@ -64,6 +60,7 @@ class ChengYuPage extends BasefulWidget implements View {
               padding: const EdgeInsets.all(16.0),
               child: ChengYuInfoList(
                 chengyuEntity: chengyuEntity,
+                noticeMessage: _message,
               ),
             ),
           )
@@ -74,29 +71,19 @@ class ChengYuPage extends BasefulWidget implements View {
 
   void _getChengyu() {
     if (_controller.text == null || _controller.text == "") {
-      Fluttertoast.showToast(
-          msg: "成语不能为空",
-          toastLength: Toast.LENGTH_SHORT,
-          gravity: ToastGravity.CENTER,
-          timeInSecForIos: 1,
-          backgroundColor: Colors.red,
-          textColor: Colors.white,
-          fontSize: 16.0);
+      ToastUtils.show("查询不能为空");
       return;
     }
     chengYuPresenter.getChengYu(_controller.text);
   }
 
   @override
-  void closeLoading() {
-    // TODO: implement closeLoading
-    LogUtil.e("closeLoading");
-  }
-
-  @override
-  void reload() {
-    // TODO: implement reload
-    LogUtil.e("reload");
+  void showError({String msg}) {
+    if (msg != null) {
+      setState(() {
+        _message = msg;
+      });
+    }
   }
 
   @override
@@ -105,26 +92,19 @@ class ChengYuPage extends BasefulWidget implements View {
     ChengyuEntity chengyuEntity = o as ChengyuEntity;
 
     LogUtil.e("success1");
-    state.setState(() {
+    setState(() {
       this.chengyuEntity = chengyuEntity;
     });
   }
 
   @override
-  void showDisconnect() {
-    // TODO: implement showDisconnect
-    LogUtil.e("showDisconnect");
+  void preparedPage() {
+    // TODO: implement preparedPage
   }
 
   @override
-  void showError({String msg}) {
-    // TODO: implement showError
-    LogUtil.e("showError" + msg);
-  }
-
-  @override
-  void showLoading({String msg}) {
-    // TODO: implement showLoading
-    LogUtil.e("showLoading");
+  void dispose() {
+    super.dispose();
+    chengYuPresenter.stop();
   }
 }

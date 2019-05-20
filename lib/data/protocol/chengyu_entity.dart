@@ -25,7 +25,7 @@ class ChengyuEntity {
       this.yufa});
 
   ChengyuEntity.fromJson(Map<String, dynamic> json) {
-      head = json['head'];
+    head = json['head'];
     chengyujs = json['chengyujs'];
     pinyin = json['pinyin'];
     tongyi = new List<String>.from(json['tongyi']);

@@ -7,6 +7,8 @@ INJECTED from /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/a
 MERGED from /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from [:fluttertoast] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:shared_preferences] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_webview_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_webview_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 INJECTED from /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -71,6 +73,10 @@ MERGED from [:fluttertoast] /Users/huangyachong/Desktop/workspace/flutterlearn/f
 MERGED from [:fluttertoast] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_webview_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_webview_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_webview_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_webview_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 INJECTED from /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/android/app/src/debug/AndroidManifest.xml

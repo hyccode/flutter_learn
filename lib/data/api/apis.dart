@@ -1,4 +1,12 @@
 class Api {
+
+
+
+
+
+
+
+
   /// 首页banner http://www.wanandroid.com/banner/json
   static const String BANNER = "banner";
 
