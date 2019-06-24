@@ -3,7 +3,9 @@
 
 ## 使用框架
   1. 封装简单的mvp框架
-  2. 使用[rxdart](https://github.com/ReactiveX/rxdart)+[dio](https://github.com/flutterchina/dio)+[FlutterJsonBeanFactory](https://github.com/zhangruiyu/FlutterJsonBeanFactory)实现网络请求，json自动解析
+  2. 使用fish-redux状态管理框架
+  3. 学习flutter_orm_plugin数据库
+  4. 使用[rxdart](https://github.com/ReactiveX/rxdart)+[dio](https://github.com/flutterchina/dio)+[FlutterJsonBeanFactory](https://github.com/zhangruiyu/FlutterJsonBeanFactory)实现网络请求，json自动解析
 
 ## Screenshot
 

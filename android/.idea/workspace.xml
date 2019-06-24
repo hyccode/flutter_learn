@@ -1,151 +1,1047 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0252a7f4-7542-4835-a330-097aa4e1ee61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_huangyachong_Desktop_workspace_flutterlearn_flutter_learn_build_app_intermediates_flutter_flutter_x86_jar_unspecified_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_huangyachong_development_flutter_bin_cache_artifacts_engine_android_arm_flutter_jar_unspecified_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_williamwen1986_LuakitJitpack_1_0_9_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/views/practice_page/fish_redux/fish_redux_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/flutter_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/flutter_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.packages" beforeDir="false" afterPath="$PROJECT_DIR$/../.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" />
+    <list default="true" id="bf1b8c25-805b-4761-a67a-cdabe110e176" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.flutter-plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/markdown-exported-files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/flutter_webview_plugin/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/luakit/flutterluakitplugin/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/luakit/luakitandroid/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/orm/flutterormplugin/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/tekartik/sqflite/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/io/flutter/plugins/pathprovider/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/io/flutter/plugins/sharedpreferences/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/io/github/ponnamkarthik/toast/fluttertoast/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/FontManifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/assets/images/author_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/assets/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/assets/images/death_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/assets/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/assets/images/live_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/assets/images/login_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/assets/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/assets/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/assets/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/assets/images/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/fonts/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/isolate_snapshot_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/DB.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/cache.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/global.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/property.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query_list.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/select.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/table.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/type.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/dbData.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/model.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/func.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/flutter_assets/vm_snapshot_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/snapshot_blob.bin.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm/snapshot_blob.bin.d.fingerprint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/FontManifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/assets/images/author_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/assets/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/assets/images/death_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/assets/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/assets/images/live_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/assets/images/login_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/assets/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/assets/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/assets/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/assets/images/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/fonts/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/isolate_snapshot_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/DB.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/cache.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/global.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/property.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query_list.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/select.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/table.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/type.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/dbData.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/model.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/func.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/flutter_assets/vm_snapshot_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/snapshot_blob.bin.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/android-arm64/snapshot_blob.bin.d.fingerprint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/assets/images/author_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/assets/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/assets/images/death_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/assets/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/assets/images/live_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/assets/images/login_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/assets/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/assets/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/assets/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/assets/images/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/DB.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/cache.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/global.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/property.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query_list.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/select.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/table.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/type.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/dbData.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/model.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/func.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/0qraNMvia7BsDZ_zmZhl9BzH_p4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/HJ5dlKOZY4LecwQEE3f2UgaEy_8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Hu2a5J8gpFbeKEOjulwQLphA3F4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/U_9RZcsu7d9ebOu2hSsxu7M39Hg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/a3w5zwmR+YXSigYruTrLbPgnULY=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/gRJW5J+JWB9yX_gNLQETY1IMghE=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/jjbVnkzzy+dxaWPYv5qLUIRWMzg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/wV2nV1TO8UVK9Fs73LkNg7pifrg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ys3EWPeQrmD405COvLk8OauzoMM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/zfndtFTIpOnXir_cLeTzz2Mz3MU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/0qraNMvia7BsDZ_zmZhl9BzH_p4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/HJ5dlKOZY4LecwQEE3f2UgaEy_8=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/Hu2a5J8gpFbeKEOjulwQLphA3F4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/U_9RZcsu7d9ebOu2hSsxu7M39Hg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/a3w5zwmR+YXSigYruTrLbPgnULY=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/gRJW5J+JWB9yX_gNLQETY1IMghE=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/jjbVnkzzy+dxaWPYv5qLUIRWMzg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/wV2nV1TO8UVK9Fs73LkNg7pifrg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/ys3EWPeQrmD405COvLk8OauzoMM=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/zfndtFTIpOnXir_cLeTzz2Mz3MU=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/b2+IdxvA4EHYjBxdfnU7ZPYrKs4=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/flutter_app/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/flutter_app/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/sharedpreferences/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/github/ponnamkarthik/toast/fluttertoast/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/github/ponnamkarthik/toast/fluttertoast/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/github/ponnamkarthik/toast/fluttertoast/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/github/ponnamkarthik/toast/fluttertoast/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/assets/images/author_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/assets/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/assets/images/death_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/assets/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/assets/images/live_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/assets/images/login_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/assets/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/assets/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/assets/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/assets/images/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/DB.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/cache.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/global.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/property.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query_list.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/select.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/table.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/type.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/dbData.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/model.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/func.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/snapshot_blob.bin.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/snapshot_blob.bin.d.fingerprint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/res/merged/debug/drawable_toast_bg.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/res/merged/debug/layout_toast_custom.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/example/flutter_app/BuildConfig.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/example/flutter_app/MainActivity.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/example/flutter_app/R$drawable.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/example/flutter_app/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/example/flutter_app/R$layout.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/example/flutter_app/R$mipmap.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/example/flutter_app/R$style.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/example/flutter_app/R.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/flutter_webview_plugin/R.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/luakit/flutterluakitplugin/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/luakit/flutterluakitplugin/R.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/luakit/luakitandroid/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/luakit/luakitandroid/R.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/orm/flutterormplugin/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/orm/flutterormplugin/R.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/com/tekartik/sqflite/R.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/io/flutter/plugins/GeneratedPluginRegistrant.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/io/flutter/plugins/pathprovider/R.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/io/flutter/plugins/sharedpreferences/R.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/io/github/ponnamkarthik/toast/fluttertoast/R$drawable.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/io/github/ponnamkarthik/toast/fluttertoast/R$id.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/io/github/ponnamkarthik/toast/fluttertoast/R$layout.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19/io/github/ponnamkarthik/toast/fluttertoast/R.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libflutter.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi-v7a/libluaFramework.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libluaFramework.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/assets/images/author_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/assets/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/assets/images/death_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/assets/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/assets/images/live_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/assets/images/login_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/assets/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/assets/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/assets/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/assets/images/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/DB.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/cache.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/global.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/property.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query_list.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/select.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/table.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/type.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/dbData.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/model.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/func.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/luakit/flutterluakitplugin/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/luakit/luakitandroid/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/generated/source/buildConfig/debug/com/luakit/flutterluakitplugin/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/intermediate-jars/debug/res.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/BuildConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/FlutterLuakitPlugin$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/FlutterLuakitPlugin$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/FlutterLuakitPlugin$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/FlutterLuakitPlugin$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/FlutterLuakitPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$anim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/flutterluakitplugin/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$anim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/outputs/aar/flutter_luakit_plugin-1.0-SNAPSHOT.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_luakit_plugin/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/luakit/luakitandroid/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/orm/flutterormplugin/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/generated/source/buildConfig/debug/com/orm/flutterormplugin/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/intermediate-jars/debug/res.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$anim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/luakit/luakitandroid/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/BuildConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/FlutterOrmPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$anim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$attr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$bool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$dimen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$integer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$style.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R$styleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/orm/flutterormplugin/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/outputs/aar/flutter_orm_plugin-1.0-SNAPSHOT.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_orm_plugin/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/flutter_webview_plugin/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/generated/source/buildConfig/debug/com/flutter_webview_plugin/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/intermediate-jars/debug/res.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/BrowserClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/BuildConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/FlutterWebviewPlugin$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/FlutterWebviewPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/ObservableWebView$OnScrollChangedCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/ObservableWebView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/WebviewManager$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/WebviewManager$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/WebviewManager$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/WebviewManager$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/WebviewManager$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/WebviewManager$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/WebviewManager$ResultHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/flutter_webview_plugin/WebviewManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/outputs/aar/flutter_webview_plugin-1.0-SNAPSHOT.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/flutter_webview_plugin/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/io/github/ponnamkarthik/toast/fluttertoast/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/generated/source/buildConfig/debug/io/github/ponnamkarthik/toast/fluttertoast/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/intermediate-jars/debug/res.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/github/ponnamkarthik/toast/fluttertoast/BuildConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/github/ponnamkarthik/toast/fluttertoast/FluttertoastPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/github/ponnamkarthik/toast/fluttertoast/R$drawable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/github/ponnamkarthik/toast/fluttertoast/R$id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/github/ponnamkarthik/toast/fluttertoast/R$layout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/github/ponnamkarthik/toast/fluttertoast/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/packaged_res/debug/drawable/toast_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/packaged_res/debug/layout/toast_custom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/outputs/aar/fluttertoast-1.0-SNAPSHOT.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/fluttertoast/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/FMDB/libFMDB.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/author_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/death_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/live_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/login_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/DB.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/cache.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/global.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/property.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query_list.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/select.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/table.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/type.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/dbData.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/model.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/func.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/flutter_luakit_plugin/libflutter_luakit_plugin.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/flutter_orm_plugin/libflutter_orm_plugin.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/flutter_webview_plugin/libflutter_webview_plugin.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/fluttertoast/libfluttertoast.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/libPods-Runner.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/path_provider/libpath_provider.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/shared_preferences/libshared_preferences.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/sqflite/libsqflite.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/Runner.build/Release-iphoneos/Runner.build/dgph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/author_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/death_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/live_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/login_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/images/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/DB.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/cache.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/global.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/property.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query_list.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/select.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/table.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/type.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/dbData.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/model.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/func.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/ios/pod_inputs.fingerprint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/io/flutter/plugins/pathprovider/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/generated/source/buildConfig/debug/io/flutter/plugins/pathprovider/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/intermediate-jars/debug/res.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/BuildConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/PathProviderPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/pathprovider/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/outputs/aar/path_provider-1.0-SNAPSHOT.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/path_provider/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/io/flutter/plugins/sharedpreferences/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/generated/source/buildConfig/debug/io/flutter/plugins/sharedpreferences/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/intermediate-jars/debug/res.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/sharedpreferences/BuildConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/sharedpreferences/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/sharedpreferences/SharedPreferencesPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/outputs/aar/shared_preferences-1.0-SNAPSHOT.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/shared_preferences/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/out/com/tekartik/sqflite/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/generated/source/buildConfig/debug/com/tekartik/sqflite/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/intermediate-jars/debug/res.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/BuildConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$BgResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin$Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqflitePlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/SqlCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/dev/Debug.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/BaseOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/BaseReadOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/BatchOperation$BatchOperationResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/BatchOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/ExecuteOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/MethodCallOperation$Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/MethodCallOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/Operation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/OperationResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/tekartik/sqflite/operation/SqlErrorInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/outputs/aar/sqflite-1.0-SNAPSHOT.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/sqflite/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/.symlinks/flutter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/.symlinks/plugins/flutter_luakit_plugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/.symlinks/plugins/flutter_orm_plugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/.symlinks/plugins/flutter_webview_plugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/.symlinks/plugins/fluttertoast" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/.symlinks/plugins/path_provider" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/.symlinks/plugins/shared_preferences" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/.symlinks/plugins/sqflite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/assets/images/author_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/assets/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/assets/images/death_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/assets/images/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/assets/images/live_clock_buttom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/assets/images/login_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/assets/images/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/assets/images/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/assets/images/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/assets/images/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/isolate_snapshot_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/DB.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/cache.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/global.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/property.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query_list.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/select.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/table.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/class/type.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/dbData.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/model.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/fields.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/func.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/vm_snapshot_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMDB.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMDatabase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMDatabase.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMDatabaseAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMDatabaseAdditions.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMDatabasePool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMDatabasePool.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMDatabaseQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMDatabaseQueue.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMResultSet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/FMDB/src/fmdb/FMResultSet.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/FMDB/FMDB.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/FMDB/FMDatabase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/FMDB/FMDatabaseAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/FMDB/FMDatabasePool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/FMDB/FMDatabaseQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/FMDB/FMResultSet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/LuaNotificationListener.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/NotificationProxyObserver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/at_exit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/atomic_ref_count.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/atomicops.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/atomicops_internals_atomicword_compat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/atomicops_internals_mac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/base_export.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/base_lambda_support.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/base_time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/basictypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/bind.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/bind_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/bind_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/build_config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/business_client_thread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/business_runtime.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/callback.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/callback_forward.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/callback_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/compiler_specific.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/content_export.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/dynamic_annotations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lauxlib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lcode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/ldebug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/ldo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lgc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/llex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/llimits.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lmem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/location.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lock_base.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lock_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/logging.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lopcodes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lparser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lstate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lstring.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/ltable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/ltm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lua.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lua_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lua_notify.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/luaconf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lualib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lundump.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lvm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/lzio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/message_loop_proxy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/move.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/non_thread_safe.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/non_thread_safe_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/notification_details.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/notification_observer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/notification_registrar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/notification_service.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/notification_source.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/oc_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/platform_thread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/raw_scoped_refptr_mismatch_checker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/ref_counted.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/scoped_ptr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/sequence_checker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/sequenced_task_runner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/sequenced_task_runner_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/single_thread_task_runner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/task_runner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/task_runner_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/template_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/thread_checker_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/thread_collision_warner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/tolua++.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/tolua_event.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/tuple.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/LuakitPod/weak_ptr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/curl/curl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/curl/curlver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/curl/easy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/curl/mprintf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/curl/multi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/curl/stdcheaders.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/curl/system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/curl/typecheck-gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/curl/urlapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/flutter_luakit_plugin/FlutterLuakitPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/flutter_orm_plugin/FlutterOrmPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/flutter_webview_plugin/FlutterWebviewPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/fluttertoast/FluttertoastPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/fluttertoast/UIView+Toast.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/path_provider/PathProviderPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/shared_preferences/SharedPreferencesPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/sqflite/SqfliteOperation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Private/sqflite/SqflitePlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/FMDB/FMDB.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/FMDB/FMDatabase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/FMDB/FMDatabaseAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/FMDB/FMDatabasePool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/FMDB/FMDatabaseQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/FMDB/FMResultSet.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/LuaNotificationListener.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/NotificationProxyObserver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/at_exit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/atomic_ref_count.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/atomicops.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/atomicops_internals_atomicword_compat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/atomicops_internals_mac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/base_export.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/base_lambda_support.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/base_time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/basictypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/bind.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/bind_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/bind_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/build_config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/business_client_thread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/business_runtime.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/callback.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/callback_forward.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/callback_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/compiler_specific.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/content_export.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/dynamic_annotations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lauxlib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lcode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/ldebug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/ldo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lgc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/llex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/llimits.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lmem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/location.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lock_base.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lock_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/logging.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lopcodes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lparser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lstate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lstring.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/ltable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/ltm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lua.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lua_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lua_notify.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/luaconf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lualib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lundump.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lvm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/lzio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/message_loop_proxy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/move.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/non_thread_safe.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/non_thread_safe_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/notification_details.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/notification_observer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/notification_registrar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/notification_service.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/notification_source.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/oc_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/platform_thread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/raw_scoped_refptr_mismatch_checker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/ref_counted.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/scoped_ptr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/sequence_checker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/sequenced_task_runner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/sequenced_task_runner_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/single_thread_task_runner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/task_runner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/task_runner_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/template_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/thread_checker_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/thread_collision_warner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/tolua++.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/tolua_event.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/tuple.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/LuakitPod/weak_ptr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/curl/curl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/curl/curlver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/curl/easy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/curl/mprintf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/curl/multi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/curl/stdcheaders.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/curl/system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/curl/typecheck-gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/curl/urlapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/flutter_luakit_plugin/FlutterLuakitPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/flutter_orm_plugin/FlutterOrmPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/flutter_webview_plugin/FlutterWebviewPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/fluttertoast/FluttertoastPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/fluttertoast/UIView+Toast.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/path_provider/PathProviderPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/shared_preferences/SharedPreferencesPlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/sqflite/SqfliteOperation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Headers/Public/sqflite/SqflitePlugin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Local Podspecs/Flutter.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Local Podspecs/flutter_inappbrowser.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Local Podspecs/flutter_luakit_plugin.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Local Podspecs/flutter_orm_plugin.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Local Podspecs/flutter_webview_plugin.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Local Podspecs/fluttertoast.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Local Podspecs/path_provider.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Local Podspecs/shared_preferences.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Local Podspecs/sqflite.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/LuaNotificationListener.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/NotificationProxyObserver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/at_exit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/atomic_ref_count.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/atomicops.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/atomicops_internals_atomicword_compat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/atomicops_internals_mac.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/base_export.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/base_lambda_support.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/base_time.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/basictypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/bind.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/bind_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/bind_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/build_config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/business_client_thread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/business_runtime.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/callback.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/callback_forward.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/callback_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/compiler_specific.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/content_export.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/dynamic_annotations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lauxlib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lcode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/ldebug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/ldo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lgc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/llex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/llimits.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lmem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lobject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/location.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lock_base.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lock_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/logging.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lopcodes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lparser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lstate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lstring.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/ltable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/ltm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lua.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lua_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lua_notify.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/luaconf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lualib.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lundump.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lvm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/lzio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/message_loop_proxy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/move.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/non_thread_safe.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/non_thread_safe_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/notification_details.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/notification_observer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/notification_registrar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/notification_service.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/notification_source.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/oc_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/platform_thread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/raw_scoped_refptr_mismatch_checker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/ref_counted.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/scoped_ptr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/sequence_checker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/sequenced_task_runner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/sequenced_task_runner_helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/single_thread_task_runner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/task_runner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/task_runner_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/template_util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/thread_checker_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/thread_collision_warner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/tolua++.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/tolua_event.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/tuple.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/include/weak_ptr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/LuakitPod/lib/libLuakit.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Manifest.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/FMDB.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/Flutter.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/LuakitPod.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/Pods-Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/curl.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/flutter_luakit_plugin.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/flutter_orm_plugin.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/flutter_webview_plugin.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/fluttertoast.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/path_provider.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/shared_preferences.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/sqflite.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Pods.xcodeproj/xcuserdata/huangyachong.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/FMDB/FMDB-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/FMDB/FMDB-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/FMDB/FMDB.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Flutter/Flutter.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/LuakitPod/LuakitPod.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/curl/curl.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/flutter_luakit_plugin/flutter_luakit_plugin-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/flutter_luakit_plugin/flutter_luakit_plugin-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/flutter_luakit_plugin/flutter_luakit_plugin.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/flutter_orm_plugin/flutter_orm_plugin-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/flutter_orm_plugin/flutter_orm_plugin-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/flutter_orm_plugin/flutter_orm_plugin.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/flutter_webview_plugin/flutter_webview_plugin-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/flutter_webview_plugin/flutter_webview_plugin-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/flutter_webview_plugin/flutter_webview_plugin.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/fluttertoast/fluttertoast-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/fluttertoast/fluttertoast-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/fluttertoast/fluttertoast.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/path_provider/path_provider-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/path_provider/path_provider-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/path_provider/path_provider.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/shared_preferences/shared_preferences-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/shared_preferences/shared_preferences-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/shared_preferences/shared_preferences.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/sqflite/sqflite-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/sqflite/sqflite-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/Target Support Files/sqflite/sqflite.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/include/curl/curl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/include/curl/curlver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/include/curl/easy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/include/curl/mprintf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/include/curl/multi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/include/curl/stdcheaders.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/include/curl/system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/include/curl/typecheck-gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/include/curl/urlapi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Pods/curl/lib/libcurl.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner.xcworkspace/xcuserdata/huangyachong.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ios/Runner.xcworkspace/xcuserdata/huangyachong.xcuserdatad/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/bored_page/news_page/action.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/bored_page/news_page/effect.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/bored_page/news_page/page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/bored_page/news_page/reducer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/bored_page/news_page/state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/bored_page/news_page/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/practice_page/fish_redux/simple_page/action.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/practice_page/fish_redux/simple_page/effect.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/practice_page/fish_redux/simple_page/page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/practice_page/fish_redux/simple_page/reducer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/practice_page/fish_redux/simple_page/state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/views/practice_page/fish_redux/simple_page/view.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app.dill.incremental.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app.dill.track.dill.incremental.dill" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app.dill.track.dill.incremental.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/snapshot_blob.bin.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/flutter-x86.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/flutter-x86.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/GeneratedPluginRegistrant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/io/flutter/plugins/GeneratedPluginRegistrant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/isolate_snapshot_data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/vm_snapshot_data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/2.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/3.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/x86/libflutter.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/x86_64/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/x86_64/libflutter.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/apk/app.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/app/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/flutter_assets/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../build/flutter_assets/isolate_snapshot_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../build/flutter_assets/vm_snapshot_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Assets.car" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/isolate_snapshot_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/vm_snapshot_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Assets.car" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/isolate_snapshot_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/vm_snapshot_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/../build/snapshot_blob.bin.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build/snapshot_blob.bin.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/../build/snapshot_blob.bin.d.fingerprint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Flutter/Flutter.framework/Flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Flutter/Flutter.framework/Flutter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Flutter/Flutter.framework/Headers/FlutterCodecs.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Flutter/Flutter.framework/Headers/FlutterCodecs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Flutter/Flutter.framework/Headers/FlutterEngine.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Flutter/Flutter.framework/Headers/FlutterEngine.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Flutter/Flutter.framework/Headers/FlutterViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Flutter/Flutter.framework/Headers/FlutterViewController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/routers/router_handler.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/routers/router_handler.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/routers/routers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/routers/routers.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/views/bored_page/kpi_page/kpi_list_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/views/bored_page/kpi_page/kpi_list_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/views/bored_page/kpi_page/kpi_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/views/bored_page/kpi_page/kpi_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/views/practice_page/index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/views/practice_page/index.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/views/practice_page/net/net_dio_utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/views/practice_page/net/net_dio_utils.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,10 +1059,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="52" selection-end-column="71" />
+            <state relative-caret-position="102">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -182,26 +1078,13 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -214,12 +1097,14 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,11 +1195,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0252a7f4-7542-4835-a330-097aa4e1ee61" name="Default Changelist" comment="" />
-      <created>1561363328534</created>
+      <changelist id="bf1b8c25-805b-4761-a67a-cdabe110e176" name="Default Changelist" comment="" />
+      <created>1561364556044</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561363328534</updated>
+      <updated>1561364556044</updated>
     </task>
     <servers />
   </component>
@@ -353,10 +1238,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="52" selection-end-column="71" />
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>

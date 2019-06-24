@@ -1,0 +1,79 @@
+PODS:
+  - curl (1.0.0)
+  - Flutter (1.0.0)
+  - flutter_luakit_plugin (0.0.1):
+    - curl (>= 1.0.0)
+    - Flutter
+    - LuakitPod (>= 1.0.17)
+  - flutter_orm_plugin (0.0.1):
+    - Flutter
+  - flutter_webview_plugin (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - LuakitPod (1.0.17)
+  - path_provider (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+
+DEPENDENCIES:
+  - curl (~> 1.0.0)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_luakit_plugin (from `.symlinks/plugins/flutter_luakit_plugin/ios`)
+  - flutter_orm_plugin (from `.symlinks/plugins/flutter_orm_plugin/ios`)
+  - flutter_webview_plugin (from `.symlinks/plugins/flutter_webview_plugin/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - LuakitPod (~> 1.0.17)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+  https://github.com/williamwen1986/curl.git:
+    - curl
+  https://github.com/williamwen1986/LuakitPod.git:
+    - LuakitPod
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_luakit_plugin:
+    :path: ".symlinks/plugins/flutter_luakit_plugin/ios"
+  flutter_orm_plugin:
+    :path: ".symlinks/plugins/flutter_orm_plugin/ios"
+  flutter_webview_plugin:
+    :path: ".symlinks/plugins/flutter_webview_plugin/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+
+SPEC CHECKSUMS:
+  curl: ec0615c2f1046f5751549e6e714f845c9b609805
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_luakit_plugin: e28f51aebfe531271731bf516b20b159ce3ca039
+  flutter_orm_plugin: f62fd453ff96deb4962cde4a00294a9bd684c974
+  flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
+  fluttertoast: b644586ef3b16f67fae9a1f8754cef6b2d6b634b
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LuakitPod: cad50b245b4d41a5e85cf33bd7883b7320b4b41a
+  path_provider: f96fff6166a8867510d2c25fdcc346327cc4b259
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+  sqflite: ff1d9da63c06588cc8d1faf7256d741f16989d5a
+
+PODFILE CHECKSUM: 2be65406f5e22fec7a85eedbdfd74717236f17cb
+
+COCOAPODS: 1.6.1

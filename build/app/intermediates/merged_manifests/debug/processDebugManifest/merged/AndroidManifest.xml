@@ -23,7 +23,8 @@
         android:name="io.flutter.app.FlutterApplication"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="无聊" >
+        android:label="无聊"
+        android:testOnly="true" >
         <activity
             android:name="com.example.flutter_app.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
