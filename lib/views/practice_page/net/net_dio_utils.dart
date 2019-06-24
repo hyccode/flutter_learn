@@ -18,6 +18,7 @@ class DioNetUtilsPage extends BasefulWidget {
   String _text1;
   double _progress;
 
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build

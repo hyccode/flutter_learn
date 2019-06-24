@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		8oLXzRTHV766fbZgbnTUt6iCWR0=
+		CpjBhCpg68x69+PvlErjdbdM9z8=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>flutter_assets/LICENSE</key>
 		<data>
-		qSl6k1bLNeeSbzxmiqPK9McpdoU=
+		9qTjSior44QJqR7w7W9Aa49Vyx8=
 		</data>
 		<key>flutter_assets/assets/images/author_head.jpg</key>
 		<data>
@@ -66,19 +66,75 @@
 		</data>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<data>
-		ZEKJZw+FKnfdkZJa56nE5tdrWGQ=
+		ywJe2YuqBLYSyxZwF+1O+1GedGQ=
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		l/fdQZKtTI8GEAteUoTuIxWE3eQ=
+		QTnOPJL5QCUBNDPtncOvsHMZHdI=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		AlgKy1FbEPcZcd0kdJLLHtOy68I=
 		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/DB.lua</key>
+		<data>
+		H6eBo3LsQtNrQFC/kqMr34CzdlQ=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/cache.lua</key>
+		<data>
+		8KBliTNBCGpjSPOrvU+aop/wa2Y=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/fields.lua</key>
+		<data>
+		by8JVpZzhzMlZFfXriOJclmxNRs=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/global.lua</key>
+		<data>
+		AFM9YP3g6KMtm/+zDBz5ubAd4qk=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/property.lua</key>
+		<data>
+		XvF0GlwtIRY0ZUZsobEDbtJKveQ=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query.lua</key>
+		<data>
+		6HnLBYnsNzx6xr8larKgMAQ9DC4=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query_list.lua</key>
+		<data>
+		+IaeozQPdOJ3d4HfA8vzA7X/Dc8=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/select.lua</key>
+		<data>
+		ODx9WVuqePHoWs0BbKQhCcfVLw0=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/table.lua</key>
+		<data>
+		JvwW5mciTB7IsxD9YWU7RM43Lf8=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/type.lua</key>
+		<data>
+		QtcgveIT2k24IDPgeaFstWVwvPI=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/dbData.lua</key>
+		<data>
+		Cr0VIR2U1UzeRYSvKhgfnP8+2KM=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/model.lua</key>
+		<data>
+		jK6djerjiKIjibSGeW8hqXwJ6M4=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/fields.lua</key>
+		<data>
+		eM/Xcg761R6uSOYVq8uUJoBHTaU=
+		</data>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/func.lua</key>
+		<data>
+		OhIIYmhAEhgPNdrfBzU+vueY1Vc=
+		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
-		tQwZd+rR8mZc8LrdB4uIXkRP+cg=
+		f0NRnTh3hT62kaWEgCJgzyTEjd0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -87,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8oLXzRTHV766fbZgbnTUt6iCWR0=
+			CpjBhCpg68x69+PvlErjdbdM9z8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yTtkD3JPvHUdX4HX8Yff/Xj33m+Cp+gv2/dWT/awXF4=
+			o5ysiRmYraRtsJLLoxWcFSdcFbJcLMSClQ3Gxv41aYw=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -109,11 +165,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qSl6k1bLNeeSbzxmiqPK9McpdoU=
+			9qTjSior44QJqR7w7W9Aa49Vyx8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Me8vOPRpCx7NvxhiHu+sJYxyGelver/YLjERxlRB2zs=
+			fDgPJ4p44VX3TBhQOBPZUSg2G7Dgjz/BXL6ZUcpWeyA=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/author_head.jpg</key>
@@ -241,22 +297,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZEKJZw+FKnfdkZJa56nE5tdrWGQ=
+			ywJe2YuqBLYSyxZwF+1O+1GedGQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			GmOTAPta9jKEQM9NBgkYguaLUrU3uviowVcUC9BzRoc=
+			Y7/3VCd9eJji+3iQnZkVYNLJqLhr/vxNL9VdxTAWPyU=
 			</data>
 		</dict>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l/fdQZKtTI8GEAteUoTuIxWE3eQ=
+			QTnOPJL5QCUBNDPtncOvsHMZHdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yp95NhoIs/zT/rK8AQv0zkpwEM9KJVaCWUuAgYK64aY=
+			UczKHby39rvWHgt+xXGRDSaCJXhg6Bsn06nTw/iB86s=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -270,15 +326,169 @@
 			ETQZmaktT/cBMTCTNJd49hWX7HSYPa18vp5zuIwK13c=
 			</data>
 		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/DB.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H6eBo3LsQtNrQFC/kqMr34CzdlQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			tXeHjiiH2ahwO0CQoyCab5dZHNvMZsRMJvC9IgjqUME=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/cache.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8KBliTNBCGpjSPOrvU+aop/wa2Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			9NNpvgYzONxdPjREMGjzsoZ2Njg0p6U/NPNT80rddag=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/fields.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			by8JVpZzhzMlZFfXriOJclmxNRs=
+			</data>
+			<key>hash2</key>
+			<data>
+			A0HSW0bbDn6EOpyWNRmk9T1q/tGkjS4Zs4noCZNaTok=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/global.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AFM9YP3g6KMtm/+zDBz5ubAd4qk=
+			</data>
+			<key>hash2</key>
+			<data>
+			LJB8kw+O/C9uStj3MymnEkRTmDXcyRf0JgILKQxlPZ4=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/property.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XvF0GlwtIRY0ZUZsobEDbtJKveQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			mgaAdyl3+xlhdT7vAyYvhETF6G38Ssh6/w2KtahNbMM=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6HnLBYnsNzx6xr8larKgMAQ9DC4=
+			</data>
+			<key>hash2</key>
+			<data>
+			0ErFhl1dkXuStmLCYe3RoqMLCFmvhkIqleO5J1SMVog=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/query_list.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+IaeozQPdOJ3d4HfA8vzA7X/Dc8=
+			</data>
+			<key>hash2</key>
+			<data>
+			jiWdbZ2R7dy4D6RmHaMZOfsMadpqdTWVb7HcxEWr+KQ=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/select.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ODx9WVuqePHoWs0BbKQhCcfVLw0=
+			</data>
+			<key>hash2</key>
+			<data>
+			7yuAmYMFXlDhnkos/tyyxRz7rpfbwje4zHH1sMVrCI4=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/table.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JvwW5mciTB7IsxD9YWU7RM43Lf8=
+			</data>
+			<key>hash2</key>
+			<data>
+			NgHLZfDmx9i3ubjX2yYKkx6Rwx2ONUYshZKUxStLDrU=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/class/type.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QtcgveIT2k24IDPgeaFstWVwvPI=
+			</data>
+			<key>hash2</key>
+			<data>
+			X0vYgBMtPEVGv5NLTQ8MsdQaf1paiKVMcTRZ5sYSycU=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/dbData.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cr0VIR2U1UzeRYSvKhgfnP8+2KM=
+			</data>
+			<key>hash2</key>
+			<data>
+			EHho/xIi8d5P1yk5lvh0rDHO8o9XqTleZX+yaGNFJac=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/model.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jK6djerjiKIjibSGeW8hqXwJ6M4=
+			</data>
+			<key>hash2</key>
+			<data>
+			lQdnP7TTgkfQ16tjQiAiPJBQbNz3H/JOAwGYU3kLCsM=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/fields.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eM/Xcg761R6uSOYVq8uUJoBHTaU=
+			</data>
+			<key>hash2</key>
+			<data>
+			NfDWO773Gj0NsTVIsfgZRbHTlBr8bJJu6EbQMbE8fpY=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/flutter_orm_plugin/lua/orm/tools/func.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OhIIYmhAEhgPNdrfBzU+vueY1Vc=
+			</data>
+			<key>hash2</key>
+			<data>
+			v39QVgfjAokSrOVLcEOtH1xrq+xkbqpQACV/gjkTooU=
+			</data>
+		</dict>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tQwZd+rR8mZc8LrdB4uIXkRP+cg=
+			f0NRnTh3hT62kaWEgCJgzyTEjd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			NiPuXYhRkde/ymYiiUw+wkflKgJ10wA/+9Ar25hAt9c=
+			fkbQA0tiXWUrAWLvJwqL5Wig4WRPKSqZgE1JofEZcLc=
 			</data>
 		</dict>
 	</dict>

@@ -10,6 +10,9 @@ MERGED from [:shared_preferences] /Users/huangyachong/Desktop/workspace/flutterl
 MERGED from [:sqflite] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_webview_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_webview_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_luakit_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_luakit_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_orm_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_orm_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.williamwen1986:LuakitJitpack:1.0.9] /Users/huangyachong/.gradle/caches/transforms-2/files-2.1/953e7d842f30500dc229dfaf7c930117/AndroidManifest.xml:2:1-11:12
 INJECTED from /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -79,6 +82,12 @@ MERGED from [:path_provider] /Users/huangyachong/Desktop/workspace/flutterlearn/
 MERGED from [:path_provider] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_webview_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_webview_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_webview_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_webview_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_luakit_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_luakit_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_luakit_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_luakit_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_orm_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_orm_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_orm_plugin] /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/build/flutter_orm_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [com.github.williamwen1986:LuakitJitpack:1.0.9] /Users/huangyachong/.gradle/caches/transforms-2/files-2.1/953e7d842f30500dc229dfaf7c930117/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.williamwen1986:LuakitJitpack:1.0.9] /Users/huangyachong/.gradle/caches/transforms-2/files-2.1/953e7d842f30500dc229dfaf7c930117/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/huangyachong/Desktop/workspace/flutterlearn/flutter_learn/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion

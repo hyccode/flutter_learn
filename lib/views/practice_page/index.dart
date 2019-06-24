@@ -8,6 +8,10 @@ import 'package:flutter_app/views/practice_page/listdemo_page/listdome.dart';
 import 'package:flutter_app/views/practice_page/net/network_page.dart';
 import 'package:flutter_app/views/practice_page/page_indicator_page/page_indicator_page.dart';
 
+import 'package:flutter_app/views/practice_page/fish_redux/simple_page/page.dart';
+
+import 'fish_redux/fish_redux_page.dart';
+
 List<WidgetPoint> widgetPoints = [
   WidgetPoint(
     name: '登录页',
@@ -33,6 +37,11 @@ List<WidgetPoint> widgetPoints = [
     name: '弹窗dialog',
     routerName: "/practice/dialog",
     buildRouter: (BuildContext context) => DialogPage(),
+  ),
+  WidgetPoint(
+    name: 'fish-redux',
+    routerName: "/practice/fish_redux",
+    buildRouter: (BuildContext context) =>new FishReduxPage(),
   ),
   WidgetPoint(
     name: '动画',

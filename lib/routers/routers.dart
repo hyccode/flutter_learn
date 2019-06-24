@@ -5,6 +5,7 @@ import 'package:flutter_app/model/widget.dart';
 import 'package:flutter_app/routers/router_handler.dart';
 import 'package:flutter_app/views/bored_page/kpi_page/kpi_list_page.dart';
 import 'package:flutter_app/views/index.dart';
+import 'package:flutter_app/views/practice_page/fish_redux/simple_page/page.dart';
 import 'package:flutter_app/views/practice_page/net/net_dio_utils.dart';
 import 'package:flutter_app/widgets/404.dart';
 
@@ -15,11 +16,14 @@ class Routes {
   static String login = "/login";
   static String historyinfo = "/bored/history/info";
 
+  static String fish_redux_empty = "/practice/fish_redux/fish_redux_list1";
+
   static void configureRoutes(Router router) {
     router.define(login, handler: loginHandler);
     router.define(home, handler: homeHandler);
     router.define(webViewPage, handler: webViewPageHander);
     router.define(historyinfo, handler: historyInfoPageHander);
+    router.define(fish_redux_empty, handler: FishReduxEmpytPageHander);
 
     List widgetDemosList = new PageList().getDemos();
     widgetDemosList.addAll(NetWork);
@@ -50,4 +54,9 @@ List<WidgetPoint> NetWork = [
     routerName: KPIListPage.routeName,
     buildRouter: (BuildContext context) => KPIListPage(),
   ),
+//  WidgetPoint(
+//    name: 'fish_redux_list1',
+//    routerName: "/practice/fish_redux/fish_redux_list1",
+//    buildRouter: (BuildContext context) => SimplePagePage().buildPage(null),
+//  ),
 ];

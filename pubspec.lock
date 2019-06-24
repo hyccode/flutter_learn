@@ -14,7 +14,7 @@ packages:
       name: async
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.0.8"
+    version: "2.2.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -99,6 +99,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.1.5"
+  fish_redux:
+    dependency: "direct main"
+    description:
+      name: fish_redux
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.1.8"
   fluro:
     dependency: "direct main"
     description:
@@ -118,6 +125,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.3.2"
+  flutter_luakit_plugin:
+    dependency: transitive
+    description:
+      name: flutter_luakit_plugin
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.8"
   flutter_markdown:
     dependency: "direct main"
     description:
@@ -125,6 +139,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.2.0"
+  flutter_orm_plugin:
+    dependency: "direct main"
+    description:
+      name: flutter_orm_plugin
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -178,7 +199,7 @@ packages:
       name: matcher
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.12.3+1"
+    version: "0.12.5"
   meta:
     dependency: transitive
     description:
@@ -220,7 +241,7 @@ packages:
       name: quiver
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.0.1"
+    version: "2.0.3"
   rational:
     dependency: transitive
     description:
@@ -274,7 +295,7 @@ packages:
       name: stream_channel
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.6.8"
+    version: "2.0.0"
   string_scanner:
     dependency: transitive
     description:
@@ -302,7 +323,7 @@ packages:
       name: test_api
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.2.2"
+    version: "0.2.5"
   typed_data:
     dependency: transitive
     description:
@@ -325,5 +346,5 @@ packages:
     source: hosted
     version: "2.0.8"
 sdks:
-  dart: ">=2.1.1-dev.0.0 <3.0.0"
+  dart: ">=2.2.0 <3.0.0"
   flutter: ">=1.2.1 <2.0.0"

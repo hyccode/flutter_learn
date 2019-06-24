@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.williamwen1986:LuakitJitpack:1.0.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/953e7d842f30500dc229dfaf7c930117/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/953e7d842f30500dc229dfaf7c930117/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.williamwen1986/LuakitJitpack/1.0.9/ff582f63014e3959f4004f6a0d94dc66d2e4773/LuakitJitpack-1.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
