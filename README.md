@@ -8,7 +8,11 @@
   4. 使用[rxdart](https://github.com/ReactiveX/rxdart)+[dio](https://github.com/flutterchina/dio)+[FlutterJsonBeanFactory](https://github.com/zhangruiyu/FlutterJsonBeanFactory)实现网络请求，json自动解析
 
 ## Screenshot
-
+  ![avatar](screenshot/731562641036_.pic.jpg)
+  ![avatar](screenshot/731562641037_.pic.jpg)
+  ![avatar](screenshot/731562641038_.pic.jpg)
+  ![avatar](screenshot/731562641039_.pic.jpg)
+  ![avatar](screenshot/731562641040_.pic.jpg)
 
 ## 项目文件目录
 [目录](tree)
