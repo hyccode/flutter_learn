@@ -6,14 +6,16 @@
   2. 使用fish-redux状态管理框架
   3. 学习flutter_orm_plugin数据库
   4. 使用[rxdart](https://github.com/ReactiveX/rxdart)+[dio](https://github.com/flutterchina/dio)+[FlutterJsonBeanFactory](https://github.com/zhangruiyu/FlutterJsonBeanFactory)实现网络请求，json自动解析
+ 
 
 ## Screenshot
-  ![avatar](screenshot/731562641036_.pic.jpg)
-  ![avatar](screenshot/731562641037_.pic.jpg)
-  ![avatar](screenshot/731562641038_.pic.jpg)
-  ![avatar](screenshot/731562641039_.pic.jpg)
-  ![avatar](screenshot/731562641040_.pic.jpg)
 
+   1. <img src="screenshot/731562641036_.pic.jpg" title="Logo" width="100" /> 
+   2. <img src="screenshot/731562641037_.pic.jpg" title="Logo" width="100" /> 
+   3. <img src="screenshot/731562641038_.pic.jpg" title="Logo" width="100" /> 
+   4. <img src="screenshot/731562641039_.pic.jpg" title="Logo" width="100" /> 
+   5. <img src="screenshot/731562641040_.pic.jpg" title="Logo" width="100" /> 
+   
 ## 项目文件目录
 [目录](tree)
 
