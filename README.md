@@ -10,11 +10,9 @@
 
 ## Screenshot
    
-   1. <img src="screenshot/761562641039.jpg" title="图片" width="150" /> <img src="screenshot/741562641037.jpg" title="图片" width="150" /> 
+   1. <img src="screenshot/761562641039.jpg" title="图片" width="150" /> <img src="screenshot/771562641040.jpg" title="图片" width="150" /> <img src="screenshot/WechatIMG92.png" title="图片" width="150" />
  
-   2. <img src="screenshot/751562641038.jpg" title="图片" width="150" /> <img src="screenshot/731562641036.jpg" title="图片" width="150" /> 
-
-   3. <img src="screenshot/WechatIMG92.png" title="图片" width="150" /> <img src="screenshot/771562641040.jpg" title="图片" width="150" /> 
+   2. <img src="screenshot/751562641038.jpg" title="图片" width="150" /> <img src="screenshot/741562641037.jpg" title="图片" width="150" /> <img src="screenshot/731562641036.jpg" title="图片" width="150" />
 
 
 ## apk体验
