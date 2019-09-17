@@ -1,11 +1,9 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/common/baseful_widget.dart';
 import 'package:flutter_app/model/widget.dart';
 import 'package:flutter_app/routers/router_handler.dart';
 import 'package:flutter_app/views/bored_page/kpi_page/kpi_list_page.dart';
 import 'package:flutter_app/views/index.dart';
-import 'package:flutter_app/views/practice_page/fish_redux/simple_page/page.dart';
 import 'package:flutter_app/views/practice_page/net/net_dio_utils.dart';
 import 'package:flutter_app/widgets/404.dart';
 

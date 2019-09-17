@@ -3,11 +3,21 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_luakit_plugin-1.0.8/android" />
+            <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_orm_plugin-1.0.2/android" />
+            <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_webview_plugin-0.3.3/android" />
+            <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/fluttertoast-3.0.4/android" />
+            <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider-0.5.0+1/android" />
+            <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.5.2/android" />
+            <option value="$USER_HOME$/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/sqflite-1.1.5/android" />
+          </set>
+        </option>
         <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>

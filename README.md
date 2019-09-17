@@ -2,9 +2,9 @@
 本项目包含引导页,登陆页,控件使用,网络请求和一些无聊的小功能
 
 ## 使用框架
-  1. 封装简单的mvp框架
+  1. 参照Android方式封装简单的mvp框架
   2. 使用fish-redux状态管理框架
-  3. 学习flutter_orm_plugin数据库
+  3. 学习使用flutter_orm_plugin数据库
   4. 使用[rxdart](https://github.com/ReactiveX/rxdart)+[dio](https://github.com/flutterchina/dio)+[FlutterJsonBeanFactory](https://github.com/zhangruiyu/FlutterJsonBeanFactory)实现网络请求，json自动解析
  
 

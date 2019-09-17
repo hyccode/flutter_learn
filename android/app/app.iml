@@ -93,6 +93,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../build/app/intermediates/check-libraries" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/app/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/app/intermediates/checkDebugClasspath" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build/app/intermediates/checkReleaseClasspath" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/app/intermediates/compatible_screen_manifest" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/app/intermediates/flutter" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/app/intermediates/incremental" />
@@ -112,6 +113,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../build/app/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/app/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/app/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build/app/reports" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/app/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />

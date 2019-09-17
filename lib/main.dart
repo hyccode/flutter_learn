@@ -2,15 +2,13 @@
 import 'dart:convert';
 
 import 'package:common_utils/common_utils.dart';
-import 'package:cookie_jar/cookie_jar.dart';
-import 'package:dio/dio.dart';
+import 'package:fluro/fluro.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:fluro/fluro.dart';
-import 'package:flutter_app/routers/routers.dart';
-import 'package:flutter_app/routers/application.dart';
-import 'package:flutter_app/utils/shared_preferences.dart';
 import 'package:flutter_app/resources/shared_preferences_keys.dart';
+import 'package:flutter_app/routers/application.dart';
+import 'package:flutter_app/routers/routers.dart';
+import 'package:flutter_app/utils/shared_preferences.dart';
 import 'package:flutter_app/views/home_page/home.dart';
 import 'package:flutter_app/views/login_page/login.dart';
 
